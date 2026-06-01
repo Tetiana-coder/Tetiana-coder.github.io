@@ -169,18 +169,16 @@
     <div class="container">
         <h2>Send me a message</h2>
         
-        <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
-        <form action="https://formsubmit.co/tanya.suhostavtseva@gmail.com" method="POST" class="contact-form">
+        <form action="https://formspree.io/f/mpwweond" method="POST" class="contact-form">
             <p> Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
 
-            <!-- Form Fields -->
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Your name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Your email" required>
+                <input type="email" name="_replyto" id="email" placeholder="Your email" required>
             </div>
             <div class="form-group">
                 <label for="subject">Subject</label>
@@ -191,7 +189,6 @@
                 <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
             </div>
             
-            <!-- Submit Button -->
             <button type="submit" class="btn">Send Message</button>
 
         </form>
